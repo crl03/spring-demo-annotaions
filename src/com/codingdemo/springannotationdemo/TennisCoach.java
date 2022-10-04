@@ -5,10 +5,13 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 // you can specify beanID by @Component("theCoach")
 // or you can leave it to default wich will take class name and make first letter lowercase: tennisCoach
 @Component
-@Scope("prototype")
+//@Scope("prototype")
 public class TennisCoach implements Coach{
 
     @Autowired
@@ -17,6 +20,18 @@ public class TennisCoach implements Coach{
 
     public TennisCoach() {
         System.out.println("Inside Tennis: default constructor.");
+    }
+
+    // define init method
+    @PostConstruct
+    public void doStartupStuff() {
+        System.out.println("Inside Tennis: doStartupStuff.");
+    }
+
+    // define destroy method
+    @PreDestroy
+    public void doCleanupStuff() {
+        System.out.println("Inside Tennis: doCleanupStuff");
     }
 
 //    @Autowired

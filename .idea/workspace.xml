@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/AnnotationBeanScopeDemoApp.java" afterDir="false" />
+    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" afterDir="false" />
     </list>
@@ -56,7 +55,7 @@
       <recent name="C:\Users\cloja\IdeaProjects\spring-demo-annotaions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationBeanScopeDemoApp">
+  <component name="RunManager" selected="Application.AnnotationDemoApp">
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingdemo.springannotationdemo.AnnotationBeanScopeDemoApp" />
       <module name="spring-demo-annotaions" />
@@ -85,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
         <item itemvalue="Application.AnnotationDemoApp" />
+        <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664918225395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp">
+      <created>1664918822840</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664918822840</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp" />
   </component>
 </project>
