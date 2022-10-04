@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="Added @PostConstruct and @PreDestroy methods for TennisCoach.">
+    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="Added notes for @PreDestroy methods">
+      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/JavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/SadFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/SwimCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/SwimJavaConfigDemoApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +58,11 @@
       <recent name="C:\Users\cloja\IdeaProjects\spring-demo-annotaions\src" />
       <recent name="C:\Users\cloja\IdeaProjects\spring-demo-annotaions" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codingdemo.springannotationdemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationDemoApp">
+  <component name="RunManager" selected="Application.SwimJavaConfigDemoApp">
     <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingdemo.springannotationdemo.AnnotationBeanScopeDemoApp" />
       <module name="spring-demo-annotaions" />
@@ -82,8 +89,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingdemo.springannotationdemo.JavaConfigDemoApp" />
+      <module name="spring-demo-annotaions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingdemo.springannotationdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwimJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingdemo.springannotationdemo.SwimJavaConfigDemoApp" />
+      <module name="spring-demo-annotaions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingdemo.springannotationdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwimJavaConfigDemoApp" />
+        <item itemvalue="Application.JavaConfigDemoApp" />
         <item itemvalue="Application.AnnotationDemoApp" />
         <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
       </list>
@@ -119,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664919585147</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added notes for @PreDestroy methods">
+      <created>1664919926001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664919926001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +179,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp" />
     <MESSAGE value="Added @PostConstruct and @PreDestroy methods for TennisCoach." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added @PostConstruct and @PreDestroy methods for TennisCoach." />
+    <MESSAGE value="Added notes for @PreDestroy methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added notes for @PreDestroy methods" />
   </component>
 </project>
