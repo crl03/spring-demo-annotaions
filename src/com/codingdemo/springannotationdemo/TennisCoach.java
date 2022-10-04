@@ -29,6 +29,8 @@ public class TennisCoach implements Coach{
     }
 
     // define destroy method
+    // IF A BEAN IS prototype SCOPE THE @PreDestroy METHOD WILL NOT BE CALLED
+    // CLEANUP MUST BE DONE IN CLIENT CODE
     @PreDestroy
     public void doCleanupStuff() {
         System.out.println("Inside Tennis: doCleanupStuff");

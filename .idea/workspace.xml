@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp">
+    <list default="true" id="bb4efd9c-3953-4cc9-aadf-0e53c28910c1" name="Changes" comment="Added @PostConstruct and @PreDestroy methods for TennisCoach.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/codingdemo/springannotationdemo/TennisCoach.java" afterDir="false" />
     </list>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664918822840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added @PostConstruct and @PreDestroy methods for TennisCoach.">
+      <created>1664919585147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664919585147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented prototype scope for TennisCoach and tested in AnnotationBeanScopeDemoApp" />
+    <MESSAGE value="Added @PostConstruct and @PreDestroy methods for TennisCoach." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added @PostConstruct and @PreDestroy methods for TennisCoach." />
   </component>
 </project>
