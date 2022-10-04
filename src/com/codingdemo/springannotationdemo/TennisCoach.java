@@ -2,11 +2,13 @@ package com.codingdemo.springannotationdemo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 // you can specify beanID by @Component("theCoach")
 // or you can leave it to default wich will take class name and make first letter lowercase: tennisCoach
 @Component
+@Scope("prototype")
 public class TennisCoach implements Coach{
 
     @Autowired
